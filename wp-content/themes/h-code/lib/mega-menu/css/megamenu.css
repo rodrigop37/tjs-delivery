@@ -1,0 +1,21 @@
+.hcode-backhand-mega-menu-init { margin-top: 15px; }
+.field-hcode-mega-menu-single-item-status,
+.field-hcode-mega-menu-item-title-status,
+.field-hcode-mega-menu-item-columns,
+.field-hcode-mega-menu-item-icon,
+.field-hcode-mega-menu-item-sidebar{ display: none; }
+
+.menu-item-depth-0 .field-hcode-mega-menu-single-item-status,
+.menu-item-depth-0 .field-hcode-mega-menu-item-status { display: block;}
+
+.menu-item-depth-0 .field-megamenu-status { display: block;}
+.menu-item-depth-0.hcode-megamenu-active .field-hcode-mega-menu-item-columns,
+.menu-item-depth-0.hcode-megamenu-active .field-hcode-mega-menu-item-icon,
+.menu-item-depth-1.hcode-megamenu-active .field-hcode-mega-menu-item-icon,
+.menu-item-depth-1.hcode-megamenu-active .field-hcode-mega-menu-item-sidebar,
+.menu-item-depth-1.hcode-megamenu-active .field-hcode-mega-menu-item-title-status,
+.menu-item-depth-2.hcode-megamenu-active .field-hcode-mega-menu-item-icon,
+.menu-item-depth-2.hcode-megamenu-active .field-hcode-mega-menu-item-sidebar { display: block; }
+.menu-item-depth-1 .field-hcode-mega-menu-item-status, .menu-item-depth-2 .field-hcode-mega-menu-item-status { display: none;}
+.hcode-sub-menu-text { display: none;}
+.menu-item-depth-1 .hcode-sub-menu-text, .menu-item-depth-2 .hcode-sub-menu-text { display: inline-block; color: #999; font-style: italic; font-weight: 400; margin-left: 7px; }

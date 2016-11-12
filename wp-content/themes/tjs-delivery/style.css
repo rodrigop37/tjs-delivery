@@ -1,0 +1,63 @@
+/*
+ Theme Name: T.J's Delivery Service
+ Description: T.J.'s Deliver Service
+ License: Themeforest Split Licence
+ Author: Themezaa
+ Author URI: http://www.themezaa.com
+ Template: h-code
+ Version: 1.0
+ Text Domain: h-code-child
+*/
+
+@import url("../h-code/style.css");
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+
+
+.nav-dark, .home {
+    background: url('images/black_paper.png') !important;
+}
+body {
+	background: url('images/rockywall.png') !important;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
+	color:#f1f0f0 !important;
+}
+
+.fa-caret-down {
+	text-align:center !important;
+	display: block;
+	color:#f1f0f0;
+}
+
+.doube-border-heading {
+	border-top:2px double #000000;
+	border-bottom:2px double #000000;
+	border-style: double;
+}
+.center {
+	text-align:center;
+}
+.decor-header .section-title {
+	padding:0;
+}
+.decor-header .subheader {
+	background: url('images/black_paper.png') !important;
+}
+
+.home .double-line::before {
+	border-top: 4px double #F4F4F4 !important;
+	position: absolute;z-index: 2;}
+
+.home p {
+	font-size:1.4em;
+	max-width:430px;
+	margin:0 auto;
+}
+
+.prdctfltr_filter label {
+    font-size: 90%;
+    display: block;
+    color:#2a2a2a !important;
+}

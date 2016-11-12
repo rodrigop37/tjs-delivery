@@ -1,0 +1,59 @@
+.hcode_meta_box_tabs {background: none repeat scroll 0 0 #f5f5f5; box-sizing: border-box; float: left; margin: 0; padding: 0; width: 202px; }
+.hcode_meta_box_tabs li { margin: 0;}
+.hcode_meta_box_tabs li a { display: block; padding: 10px 4px 10px 14px; background: #e0e0e0; background: transparent; outline: none; border-width: 1px 0; border-style: solid; border-bottom-color: #E7E7E7; border-top-color: #F9F9F9; opacity: 0.7; color: #555; font-weight: bold; text-decoration: none; -webkit-transition: none; transition: none}
+.hcode_meta_box_tabs li a:hover { background: #e5e5e5 none repeat scroll 0 0; color: #777; opacity: 1; border-top: 1px solid #e7e7e7; }
+.hcode_meta_box_tabs li.active a { color: #222; background-color: #fcfcfc; opacity: 1;}
+.hcode_meta_box_tabs li a:focus { box-shadow: none; outline: none;}
+.hcode_meta_box_tabs li a i { font-size: 1.35em; position: absolute; vertical-align: middle; }
+.hcode_meta_box_tabs li a .group_title { display: block; padding-left: 30px; }
+.hcode_meta_box_tab_content { background: #fcfcfc none repeat scroll 0 0; display: flex; border-left: 1px solid #d8d8d8;  box-shadow: 0 1px 0 #fff inset; margin-left: 201px; padding: 10px 20px 30px; position: relative; min-height: 300px; }
+#hcode_admin_options .inside { padding: 0; margin: 0; background-color: #f5f5f5; background-repeat: repeat-x; background-image: -moz-linear-gradient(top, #f2f2f2 0%, #f5f5f5 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(100%, #f5f5f5));
+    background-image: -webkit-linear-gradient(top, #f2f2f2 0%, #f5f5f5 100%);
+    background-image: -ms-linear-gradient(top, #f2f2f2 0%, #f5f5f5 100%);
+    background-image: -o-linear-gradient(top, #f2f2f2 0%, #f5f5f5 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee', GradientType=0);
+    background-image: linear-gradient(top, #f2f2f2 0%, #f5f5f5 100%);
+    overflow: hidden}
+.hcode_meta_box_tab { display: none;}
+.hide-children { display: none;}
+.show-children { display: block;}
+.hcode_meta_box_tab_content .active { display: block !important;}
+.hcode_meta_box_tab_content h3 { border-bottom: 1px solid #e7e7e7 !important; line-height: 2em !important; margin: 0 0 20px 0 !important; color: #23282d !important; font-size: 1.3em !important; display: block; font-weight: 600; padding: 0 !important; }
+.hcode_meta_box_tab_content p { display: block; font-weight: bold; padding: 20px 10px 20px 0; box-sizing: border-box; float: left; width: 30%;}
+.main_tab_title { margin-bottom: 20px;}
+.description_box { width: 100%; border-bottom: 1px solid #ececec; float: left; }
+.left-part { display: block; font-weight: bold; padding: 20px 10px 20px 0; float: left; width: 30%; box-sizing: border-box; }
+.left-part .description { font-weight: normal; color: #666; display: block; font-style: normal;}
+.main_tab_title .description { font-style: normal;}
+.right-part { width: 70%;  padding: 20px 0 0; float: left;}
+.right-part textarea { width: 100%; height: 100px;}
+.right-part select { background:transparent url("../images/select-arrow.png") no-repeat scroll right 7px center; width: 320px; font-size: 12px; cursor: pointer; padding-right: 25px; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+.right-part select:-ms-expand { display: none; }
+.right-part .upload_image_screenshort { float: left; clear: both; margin-bottom: 10px; width: 150px;}
+.right-part .upload_field, .hcode_meta_box_tab_content input[type="text"] { float: left; font-size: 12px; width: 320px; margin-bottom: 10px;}
+.right-part .hcode_upload_button { float: left; clear: both;  border-radius: 3px; border:1px solid #ccc; box-sizing: border-box; cursor: pointer; display: inline-block; font-size: 13px; height: 28px; line-height: 26px; margin: 0 10px 21px 0; padding: 0 10px 1px; text-decoration: none; white-space: nowrap; background: #f7f7f7 none repeat scroll 0 0; box-shadow: 0 1px 0 #fff inset, 0 1px 0 rgba(0, 0, 0, 0.08); color: #555; vertical-align: top;}
+.right-part .hcode_upload_button:hover, .right-part .hcode_upload_button:focus{ background: #fafafa none repeat scroll 0 0; border-color: #999; color: #23282d;}
+.right-part .hcode_upload_button:active { background: #eee none repeat scroll 0 0; border-color: #999; box-shadow: 0 2px 5px -3px rgba(0, 0, 0, 0.5) inset; color: #32373c;}
+.right-part .hcode_remove_button { float: left; margin: 0 10px 21px 0;}
+
+@media screen and (max-width: 1400px) {
+    .left-part { width: 40%; }
+    .right-part { width: 60%; }
+    .right-part .upload_field, input[type="text"], .right-part select { width: 85%;}
+}
+@media screen and (max-width: 1124px) {
+    .hcode_meta_box_tabs { width: 50px;}
+    .hcode_meta_box_tabs li a { height: 20px; position: relative;}
+    .hcode_meta_box_tabs li a .group_title { position: absolute; display: none; padding: 9px 12px 12px; left: 50px; top: -1px; width: 200px; background: #eeeeee; border: 1px solid #ccc; 
+        -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        border-width: 1px 1px 1px 0px;
+        z-index: 3}
+    .hcode_meta_box_tabs li a:hover .group_title { display: block}
+    .hcode_meta_box_tab_content { margin-left: 50px;}
+    .left-part { width: 40%; }
+    .right-part { width: 60%; }
+}
+

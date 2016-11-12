@@ -1,0 +1,64 @@
+/*!
+ *  style-ie.ccs is Only for IE Browsers
+ */
+
+/**************************************
+    ! Only Cursor 
+***************************************/
+
+/*  scroll down   */
+.scroll-to-down { cursor: url("assets/images/arrow-down.cur"), default;}
+.scroll-to-down-white { cursor: url("assets/images/arrow-down-white.cur"), default;}
+
+/*  Work */
+figure:hover img { cursor: url("assets/images/icon-zoom-white.cur"), pointer;}
+.work-with-title figure:hover img { cursor: url("assets/images/icon-zoom-white.cur"), default;}
+
+/*  home shop   */
+.home-product:hover img { cursor: url("assets/images/icon-zoom-white.cur"), default;}
+
+/*  popup gallery, lightbox gallery, image popup  */
+.popup-gallery img, .lightbox-gallery img, .image-popup-no-margins img, .image-popup-vertical-fit img { cursor: url("assets/images/icon-zoom-white.png"), default;}
+
+/*  magnific popup close  */
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close, .mfp-image-holder, .mfp-iframe-holder { cursor: url("assets/images/icon-zoom-out.cur"), default;}
+
+/* travel */
+.travel-booking  .select-style { background: #fff url("assets/images/icon-zoom-white.png") no-repeat right 10px top 50%; }
+.travel-adventure:hover img  { cursor:url("assets/images/icon-zoom-white.png"), pointer; }
+
+/*  zoom gallery  */
+.zoom-gallery img { cursor: url("assets/images/icon-zoom2.cur"), default;}
+zoom-in.mfp-zoom { cursor: url("assets/images/icon-zoom.cur"), default;}
+
+/*  owl carousel  */
+.owl-carousel .owl-item{ float: left; cursor: url("assets/images/icon-move.png"), move; }
+.owl-carousel.white-cursor .owl-item{ float: left; cursor: url("assets/images/icon-move-light.png"), move; }
+
+/*  magnific popup content   */
+.mfp-auto-cursor .mfp-content { cursor: url("assets/images/icon-zoom-out.cur"), default;}
+
+/*owl carousel*/
+.owl-carousel .owl-item{ cursor: url("assets/images/icon-move.cur"), default;}
+.owl-carousel.light-pagination .owl-item{ cursor: url("assets/images/icon-move-light.cur"), default;}
+
+/* search and cart */
+.top-cart a.shopping-cart { padding-bottom: 30px;}
+#top-search { padding-bottom: 0;}
+/*.search-cart-header i { padding-bottom: 30px;}
+.search-cart-header .subtitle { padding-bottom: 30px;}*/
+
+.shrink-nav .search-cart-header .subtitle { padding-bottom: 0;  right: 0; }
+.shrink-nav .search-cart-header i { padding-bottom: 0px; }
+.sticky-nav { display: block; height: 57px;}
+nav .container { display: block;}
+#contact-us .your-message textarea { min-height: 111px;}
+.urgent-job { left: 151px !important;} 
+.buttons_added input.qty { line-height: 14px;}
+input {  padding-bottom: 15px; }
+.select2-search input { background-position: 100% -31px !important; } 
+.hcode-animated-tabs ul li br { display: none; }
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close { line-height: 18px !important; padding-bottom: 0 !important; }
+
+.mfp-figure .mfp-close { display: block !important}
+

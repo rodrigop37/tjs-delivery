@@ -1,0 +1,27 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">portfolio-category</taxonomy>
+	</taxonomies>
+	<admin-texts>
+		<key name="hcode_theme_setting">
+			<key name="hcode_header_subtitle" />
+			<key name="404_title_text" />
+			<key name="404_content_text" />
+			<key name="404_button" />
+			<key name="hcode_related_post_title" />
+			<key name="hcode_related_title" />
+			<key name="share_title" />
+			<key name="hcode_shipping_available_text" />
+			<key name="hcode_readmore_button_text" />
+			<key name="hcode_footer_wrapper_phone_text" />
+			<key name="hcode_footer_wrapper_map_text" />
+			<key name="hcode_footer_wrapper_email_id" />
+			<key name="hcode_footer_copyright" />
+			<key name="hcode_search_placeholder_text" />
+			<key name="hcode_blog_page_title" />
+		</key>
+	</admin-texts>
+</wpml-config>
